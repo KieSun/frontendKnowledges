@@ -1,0 +1,17 @@
+<head>
+  <style id="click-jack">
+    body {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    if (self == top) {
+      var style = document.getElementById('click-jack')
+      document.body.removeChild(style)
+    } else {
+      top.location = self.location
+    }
+  </script>
+</body>

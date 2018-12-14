@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node/10.10.0/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js add express body-parser
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yuchengkai/frontendKnowledges/13-安全/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:103:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
